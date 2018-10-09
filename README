@@ -1,0 +1,2 @@
+Followings are required to be installed to compile the code:
+C++, gl3w, GLFW, GLM, ImGui

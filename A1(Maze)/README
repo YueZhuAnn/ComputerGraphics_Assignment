@@ -1,0 +1,13 @@
+Compile command:
+$ premake4 gmake
+$ make
+
+Manual:
+Q - Quit Application
+R - Reset
+D - Dig a maze
+Arrow keys - Move the avatar
+Shift keys + arrow keys - Remove a block
+Dragging the mouse - Rotate the maze
+Scroll wheel - Scale the maze
+Space key/backspace key - Grow/shrink a bar

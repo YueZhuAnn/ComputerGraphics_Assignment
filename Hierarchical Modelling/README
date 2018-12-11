@@ -3,34 +3,4 @@ Compile command:
 $ premake4 gmake
 $ make
 Open the puppet
-$ ./A3 Assets/puppet.lua
-
-lab computer: 
-
-Manual:
-- Implement a running motion for the puppet, after the motion, all the joints
-  will be reset.
-- The head and ear can rotate around both x axis and y axis
-- Need to click on the orange part to select the head and the body.
-
-Data structures:
-Use the tree to store the puppet.
-The scene node is the node that will be drawn, and its child can by
-joint node (child can rotate around the joint node), scene node 
-(unable rotate nodes) and null.
-The joint node control the rotation of its children. Its parent
-must be a scene node or a root node.
-
-Hierarchical model:
-                                                    Fox
-                                                     |
-                                                    ----
-                                                    Body
-        ----------------------------------------------------------------------------------------
-        |               |               |                   |                   |               |
-       Head           Tail      Left front thigh   Right front thigh   Left back thigh   Right back thigh
------------------                       |                   |                   |               |
-|               |                       
-Left ear    Right ear            Left front calf    Right front calf   Left fback calf    Right back calf
-                                        |                   |                   |               |
-                                 Left front foot    Right front foot   Left fback foot    Right back foot
+$ ./(source directory) Assets/puppet.lua

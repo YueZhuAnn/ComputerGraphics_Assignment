@@ -1,16 +1,6 @@
-compile:
+Compilation:
+Compile command:
 $ premake4 gmake
 $ make
-run program:
-$ ./Project (project.lua)
-objectives list:
-1. Extra primitives(cylinder,torus, cone)
-2. Bump mapping
-3. Mutithreading
-4. Super sampling
-5. Phong shading
-6. Reflection
-7. Refraction
-8. Soft shadow
-9. Depth of field
-10. My final scene
+Render the scene
+$ ./(source directory) Assets/project.lua
